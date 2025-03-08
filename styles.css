@@ -1,3 +1,15 @@
 body {
-  background-color: #F2CB57;
+  background-color: var(--highlight-color);
+  font-family: var(--primary-font);
+}
+
+:root {
+  --primary-color: #D98841;
+  --secondary-color: #F2B84B;
+  --highlight-color: #F2CB57;
+  --neutral-color: #BF3B0B;
+  --text-color: #0a0a0a;
+  --blank: #f8f6f3;
+  --primary-font: "Sree Krushnadevaraya", serif;
+  --secondary-font: "Funnel Sans", sans-serif;
 }
