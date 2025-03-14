@@ -13,3 +13,7 @@ body {
   --primary-font: "Sree Krushnadevaraya", serif;
   --secondary-font: "Funnel Sans", sans-serif;
 }
+
+p, a, li {
+  font-family: var(--secondary-font);
+}
